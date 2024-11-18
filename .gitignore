@@ -1,0 +1,24 @@
+# .gitignore
+
+# Node.js dependencies
+/node_modules/
+
+# Environment variables (sensitive information)
+.env
+
+# Logs
+*.log
+
+# Operating System files
+.DS_Store        # macOS
+Thumbs.db        # Windows
+
+# IDE/editor configuration files
+.vscode/          # Visual Studio Code
+.idea/            # JetBrains (IntelliJ, WebStorm, etc.)
+
+# npm package lock file
+package-lock.json
+
+# Yarn lock file (if you are using Yarn)
+yarn.lock
